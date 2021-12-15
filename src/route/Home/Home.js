@@ -1,5 +1,5 @@
 import React from 'react';
-import { FontAwesome } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import './Home.css';
@@ -7,7 +7,10 @@ import './Home.css';
 const Home = () => {
     return(
         <div>
-            hi
+            <h1>Hello world</h1>
+            <FontAwesomeIcon icon={faGithub} className="github" />
+            <FontAwesomeIcon icon={faFacebook} className="facebook" />
+            <FontAwesomeIcon icon={faInstagram} className="instagram" />
         </div>
     )
 }

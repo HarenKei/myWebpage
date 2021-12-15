@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {BrowserRouter as Route,Router, Routes, withRouter} from "react-router-dom";
+import React from 'react';
+import {Route, Routes} from "react-router-dom";
 
 
 
@@ -9,7 +9,11 @@ import Intro from "./route/Intro";
 function App() {
   return(
     <div>
-        
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/Intro" component={<Intro/>} />
+      </Routes>
+      
     </div>
 )
 }

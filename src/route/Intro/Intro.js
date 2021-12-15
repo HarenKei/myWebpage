@@ -5,7 +5,7 @@ import './Intro.css';
 const Intro = () => {
     return(
         <div>
-
+            HarenKei
         </div>
     )
 }

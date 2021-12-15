@@ -9,7 +9,7 @@ import Intro from "./route/Intro";
 function App() {
   return(
     <div>
-        hi
+        
     </div>
 )
 }
